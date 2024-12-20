@@ -4,10 +4,16 @@ function adjustStyles() {
         const allButtons = document.querySelectorAll("button");
         allButtons.forEach((button) => {
             button.className = ""
+            button.class = ""
+            button.id = ""
+            button.name = ""
         })
         const allInputs = document.querySelectorAll("button");
         allInputs.forEach((input) => {
             input.className = ""
+            input.name = ""
+            input.class = ""
+            input.id = ""
         })
         const allImages = document.querySelectorAll("img");
         allImages.forEach((image) => {
