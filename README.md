@@ -1,0 +1,1 @@
+A bit of a hello world chrome extension, just a simple, very buggy darkmode/brutalist css switcher. Thinking about maybe a dns rules extension in an upcoming project and will want optional extension capabilities for another, so this was a good spike
