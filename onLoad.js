@@ -3,7 +3,11 @@ function adjustStyles() {
     try {
         const allButtons = document.querySelectorAll("button");
         allButtons.forEach((button) => {
-            button.classList = ""
+            button.className = ""
+        })
+        const allImages = document.querySelectorAll("img");
+        allImages.forEach((image) => {
+            image.style.filter("grayscale(1)")
         })
         const allElements = document.querySelectorAll("*");
         allElements.forEach((elem) => {
