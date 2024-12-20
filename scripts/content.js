@@ -1,10 +1,17 @@
 const button = document.getElementById("brute-button")
-button.addEventListener("click", () => {
-    button.value = button.value ? false : true
-    button.innerText = button.value ? "OFF" : "ON"
+button.addEventListener('click', function () {
+    if (button.classList.contains('active')) {
+        button.classList.remove("active");
+        button.classList.add("disable");
+        button.innerText = "ON"
+    } else {
+        button.classList.remove("disable");
+        button.classList.add("active");
+        button.innerText = "OFF"
+    }
 })
 
-if (button.value) {
+if (button.classList.contains("active")) {
     try {
         const allElements = document.querySelectorAll("*");
         allElements.forEach((elem) => {
