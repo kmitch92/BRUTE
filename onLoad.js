@@ -5,6 +5,10 @@ function adjustStyles() {
         allButtons.forEach((button) => {
             button.className = ""
         })
+        const allInputs = document.querySelectorAll("button");
+        allInputs.forEach((input) => {
+            input.className = ""
+        })
         const allImages = document.querySelectorAll("img");
         allImages.forEach((image) => {
             image.classList.add("image")
