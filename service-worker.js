@@ -1,4 +1,4 @@
-function adjustStyles() {
+export function adjustStyles() {
     const allElements = document.querySelectorAll("*");
     try {
         allElements.forEach((elem) => {
@@ -18,11 +18,9 @@ function adjustStyles() {
     }
 }
 
-chrome.action.onClicked.addListener((tab) => {
-    if (!tab.url.includes('chrome://')) {
-        chrome.scripting.executeScript({
-            target: { tabId: tab.id },
-            function: adjustStyles
-        });
-    }
-});
+// chrome.action.onClicked.addListener((tab) => {
+//     chrome.scripting.executeScript({
+//         target: { tabId: tab.id },
+//         function: adjustStyles
+//     });
+// });
