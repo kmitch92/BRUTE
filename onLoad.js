@@ -1,20 +1,6 @@
 function adjustStyles() {
 
     try {
-        const allButtons = document.querySelectorAll("button");
-        allButtons.forEach((button) => {
-            button.className = ""
-            button.class = ""
-            button.id = ""
-            button.name = ""
-        })
-        const allInputs = document.querySelectorAll("button");
-        allInputs.forEach((input) => {
-            input.className = ""
-            input.name = ""
-            input.class = ""
-            input.id = ""
-        })
         const allImages = document.querySelectorAll("img");
         allImages.forEach((image) => {
             image.classList.add("image")
@@ -28,6 +14,12 @@ function adjustStyles() {
             elem.style.accentColor = "white"
             elem.style.caretColor = "white"
             elem.style.columnRuleColor = "white"
+            elem.classList.add("bruteforce")
+        })
+        const allButtons = document.querySelectorAll("button");
+        allButtons.forEach((button) => {
+            button.className = ""
+            button.classList.add("buttonbruteforce")
         })
     } catch (err) {
         console.log(err)

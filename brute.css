@@ -1,3 +1,13 @@
 .image {
     filter: grayscale(1)
 }
+
+.bruteforce {
+    background-color: black;
+    color: white
+}
+
+.buttonbruteforce {
+    background-color: white;
+    color: black
+}
