@@ -7,7 +7,7 @@ chrome.storage.local.get('brute_on', (data) => {
                 elem.style.backgroundColor = "black"
                 elem.style.color = "white"
                 elem.style.borderRadius = "0"
-                elem.style.fontFamily = "Georgia, serif"
+                // elem.style.fontFamily = "Georgia, serif"
                 // if img
                 // if(elem.attributes.)
                 // if div
