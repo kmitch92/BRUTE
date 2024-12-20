@@ -14,7 +14,7 @@
         {
             "js": [
                 "scripts/content.js",
-                "scrips/popup.js"
+                "scripts/popup.js"
             ],
             "matches": [
                 "*://*/*"
