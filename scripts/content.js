@@ -1,6 +1,7 @@
 const button = document.getElementById("brute-button")
 button.addEventListener("click", () => {
     button.value = button.value ? false : true
+    button.innerText = button.value ? "OFF" : "ON"
 })
 
 if (button.value) {
