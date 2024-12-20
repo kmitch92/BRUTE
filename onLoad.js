@@ -16,7 +16,7 @@ function adjustStyles() {
             elem.style.columnRuleColor = "white"
             elem.classList.add("bruteforce")
         })
-        const allButtons = document.querySelectorAll("button");
+        const allButtons = [...document.querySelectorAll("button"), ...document.querySelectorAll("a")];
         allButtons.forEach((button) => {
             button.className = ""
             button.classList.add("buttonbruteforce")
