@@ -8,6 +8,9 @@
         "scripting",
         "storage"
     ],
+    "actions": {
+        "default_icon": "Brute_B.png"
+    },
     "background": {
         "service_worker": "service-worker.js",
         "type": "module"
