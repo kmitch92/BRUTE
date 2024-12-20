@@ -1,0 +1,10 @@
+{
+    "name": "BRUTE",
+    "description": "Productivity above all else",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/home/kiel/Desktop/Dev/Ts/BRUTE/0fff1f35a25c2458a2115905cee1ea9c-641309124.png"
+    }
+}
