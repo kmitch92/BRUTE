@@ -9,9 +9,6 @@
     },
     "content_scripts": [
         {
-            "css": [
-                "my-styles.css"
-            ],
             "js": [
                 "scripts/content.js"
             ],
