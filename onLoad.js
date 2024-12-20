@@ -7,7 +7,7 @@ function adjustStyles() {
         })
         const allImages = document.querySelectorAll("img");
         allImages.forEach((image) => {
-            image.style.filter("grayscale(1)")
+            image.classList.add("image")
         })
         const allElements = document.querySelectorAll("*");
         allElements.forEach((elem) => {

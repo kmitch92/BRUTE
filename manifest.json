@@ -17,6 +17,9 @@
             "js": [
                 "onLoad.js"
             ],
+            "css": [
+                "brute.css"
+            ],
             "matches": [
                 "*://*/*"
             ]
